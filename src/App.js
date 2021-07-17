@@ -1,12 +1,22 @@
 import styled from "styled-components";
 import Button from "./Components/Button";
 import { CodeBlock, purebasic } from "react-code-blocks";
-const Header = styled.header``;
+const Header = styled.header`
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(45deg, #d2f0f0, #f0e6b4);
+  padding: 10px 30px;
+`;
 const AppContainer = styled.div`
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
   max-width: 1280px;
   margin: 0 auto;
+  padding: 0px 30px 120px;
+
   section {
     border: 1px solid #f1f1f1;
     padding: 20px;
@@ -96,7 +106,12 @@ function App() {
   };
   return (
     <>
-      <Header></Header>
+      <Header>
+        <img
+          src="./LikeCoin_PressKit_LikerLand_Dark.svg"
+          alt="LikeCoin_PressKit_LikerLand"
+        />
+      </Header>
       <AppContainer>
         <h1>Button Component</h1>
         <div>
