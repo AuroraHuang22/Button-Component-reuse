@@ -64,7 +64,7 @@ function App() {
     language: `<Button
     theme="green"
     icon="language"
-    text="Languange"
+    text="Language"
     drop={true}
   />`,
     fullScreen: `<Button theme="cyan" icon="full-screen" text="Full Screen" />
@@ -287,7 +287,7 @@ function App() {
           </Container>
         </section>
         <section>
-          <h4>Languange button</h4>
+          <h4>Language button</h4>
           <Container>
             <CodeExample>
               <CodeBlock
@@ -302,7 +302,7 @@ function App() {
               <Button
                 theme="green"
                 icon="language"
-                text="Languange"
+                text="Language"
                 drop={true}
               />
             </Demo>
