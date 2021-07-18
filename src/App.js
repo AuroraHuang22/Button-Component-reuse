@@ -49,9 +49,16 @@ const CodeExample = styled.div`
 const Demo = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   width: 30%;
 `;
+const Customize=styled.div`
+  display:flex; 
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items:center;
+
+`
 
 function App() {
   const btnExample = {
@@ -344,6 +351,123 @@ function App() {
                 width="max"
               />
             </Demo>
+          </Container>
+        </section>
+        <section>
+          <h4>Customize button</h4>
+          <Container>
+            <Customize>
+            <Button
+                theme="cyan"
+                icon="placeholder"
+                text=""
+              />
+              <Button
+                theme="green"
+                icon="placeholder"
+                text=""
+              />
+              <Button
+                theme="white"
+                icon="placeholder"
+                text=""
+              />
+              <Button
+                theme="white"
+                text="button"
+                width="min"
+              />
+              <Button
+                theme="cyan"
+                text="button"
+                width="min"
+              />
+              <Button
+                theme="green"
+                text="button"
+                width="min"
+              />
+              <Button
+                theme="outline"
+                icon="placeholder"
+                text="button"
+                width="default"
+              />
+              <Button
+                theme="green"
+                icon="placeholder"
+                text="button"
+                width="default"
+              />
+              <Button
+                theme="cyan"
+                icon="placeholder"
+                text="button"
+                width="default"
+              />
+              <Button
+                theme="outline"
+                icon="placeholder"
+                iconPosition="right"
+                text="button"
+                width="default"
+              />
+              <Button
+                theme="green"
+                icon="placeholder"
+                iconPosition="right"
+                text="button"
+                width="default"
+              />
+              <Button
+                theme="cyan"
+                iconPosition="right"
+                icon="placeholder"
+                text="button"
+                width="default"
+              />
+              <Button
+                theme="cyan"
+                icon="placeholder"
+                iconPosition="right"
+                text="button"
+                width="max"
+              />
+              <Button
+                theme="outline"
+                icon="placeholder"
+                iconPosition="left"
+                text="button"
+                width="max"
+              />
+              <Button
+                theme="green"
+                icon="placeholder"
+                iconPosition="right"
+                text="button"
+                width="max"
+                drop={true}
+              />
+              <Button
+                theme="cyan"
+                icon="placeholder"
+                text=""
+                circle={true}
+              />
+              <Button
+                theme="green"
+                icon="placeholder"
+                circle={true}
+                text=""
+              />
+              <Button
+                theme="white"
+                icon="placeholder"
+                circle={true}
+                text=""
+              />
+              
+            </Customize>
           </Container>
         </section>
       </AppContainer>

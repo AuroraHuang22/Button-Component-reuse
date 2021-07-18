@@ -18,7 +18,7 @@ const Btn = styled.button`
       return "16px";
     }
   }};
-  margin: 5px auto;
+  margin: 5px;
   display: flex;
   flex-direction: ${(props) => {
     if (props.drop === true) {
